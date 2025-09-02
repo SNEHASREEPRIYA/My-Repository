@@ -1,0 +1,131 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1000
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(SNEHA SREE PRIYA) Tj
+0 -30 Td
+/F1 12 Tf
+(Aspiring Software Developer | Data Science Enthusiast) Tj
+0 -20 Td
+(Email: sneha.marre@gmail.com | Mobile: +91 8977869799) Tj
+
+0 -40 Td
+/F1 16 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F1 12 Tf
+(B.Tech in Computer Science with AI & Data Science) Tj
+0 -15 Td
+(Shri Vishnu Engineering College For Women, CGPA: 9.45) Tj
+0 -15 Td
+(Oct 2022 - May 2026) Tj
+
+0 -30 Td
+/F1 16 Tf
+(SKILLS) Tj
+0 -20 Td
+/F1 12 Tf
+(Programming: Python, C++, Java, JavaScript, R) Tj
+0 -15 Td
+(Web Development: React.js, Node.js, HTML, CSS) Tj
+0 -15 Td
+(Data Science: ARIMA, SARIMA, Pandas, NumPy, Scikit-learn) Tj
+0 -15 Td
+(Tools: Git, OpenCV, SQL, Power BI) Tj
+
+0 -30 Td
+/F1 16 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F1 12 Tf
+(• Stock Price Prediction & Forecasting) Tj
+0 -15 Td
+(• Online Retail Recommendation System) Tj
+0 -15 Td
+(• E-commerce Website Platform) Tj
+0 -15 Td
+(• Color Detection Tool using OpenCV) Tj
+0 -15 Td
+(• Website Blocker Tool) Tj
+
+0 -30 Td
+/F1 16 Tf
+(CERTIFICATIONS) Tj
+0 -20 Td
+/F1 12 Tf
+(• Introduction to Data Science With Python - HarvardX (2024)) Tj
+0 -15 Td
+(• Smart Coder Certification (2024)) Tj
+
+0 -30 Td
+/F1 16 Tf
+(ACHIEVEMENTS) Tj
+0 -20 Td
+/F1 12 Tf
+(• Current CGPA: 9.45/10.0) Tj
+0 -15 Td
+(• Intermediate: 96.9%, SSC: 96.5%) Tj
+0 -15 Td
+(• Active participant in hackathons and coding competitions) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000053 00000 n 
+0000000110 00000 n 
+0000000251 00000 n 
+0000001306 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1379
+%%EOF
