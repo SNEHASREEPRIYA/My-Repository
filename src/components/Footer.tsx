@@ -20,11 +20,11 @@ const Footer = () => {
       href: "#",
       label: "GitHub"
     },
-    {
-      icon: ExternalLink,
-      href: "#",
-      label: "LeetCode"
-    }
+    // {
+    //   icon: ExternalLink,
+    //   href: "#",
+    //   label: "LeetCode"
+    // }
   ];
 
   const scrollToTop = () => {
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold gradient-text">Sneha Sree Priya</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Aspiring Software Developer passionate about creating innovative solutions 
+              Aspiring Software Developer passionate about creating innovative solutions
               through technology, data science, and continuous learning.
             </p>
           </div>

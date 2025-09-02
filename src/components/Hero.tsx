@@ -91,7 +91,7 @@ const Hero = () => {
                 asChild
                 className="hover:bg-primary/10 hover:text-primary smooth-transition"
               >
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/sneha-sree-priya-marre-5a3300257/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
@@ -101,11 +101,11 @@ const Hero = () => {
                 asChild
                 className="hover:bg-primary/10 hover:text-primary smooth-transition"
               >
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/SNEHASREEPRIYA" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 asChild
@@ -114,7 +114,7 @@ const Hero = () => {
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="h-5 w-5" />
                 </a>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
