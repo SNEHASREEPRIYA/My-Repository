@@ -27,15 +27,15 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1000));
-    
+
     toast({
       title: "Message sent successfully!",
       description: "Thank you for reaching out. I'll get back to you soon.",
     });
-    
+
     setFormData({ name: '', email: '', message: '' });
     setIsSubmitting(false);
   };
@@ -75,19 +75,19 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/sneha-sree-priya-marre-5a3300257/",
       color: "primary"
     },
     {
       icon: Github,
-      label: "GitHub", 
-      href: "#",
+      label: "GitHub",
+      href: "https://github.com/SNEHASREEPRIYA",
       color: "secondary"
     },
     {
       icon: ExternalLink,
       label: "LeetCode",
-      href: "#",
+      href: "https://leetcode.com/u/SNEHASREEPRIYA/",
       color: "primary"
     }
   ];
@@ -109,7 +109,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Whether you have a project in mind, want to discuss opportunities, or simply want to connect, 
+                Whether you have a project in mind, want to discuss opportunities, or simply want to connect,
                 I'd love to hear from you. Feel free to reach out through any of the channels below.
               </p>
             </div>
@@ -197,7 +197,7 @@ const Contact = () => {
                     className="bg-muted/20 border-border/50 focus:border-primary smooth-transition"
                   />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
                   <Input
@@ -211,7 +211,7 @@ const Contact = () => {
                     className="bg-muted/20 border-border/50 focus:border-primary smooth-transition"
                   />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="message">Message</Label>
                   <Textarea
@@ -225,7 +225,7 @@ const Contact = () => {
                     className="bg-muted/20 border-border/50 focus:border-primary smooth-transition resize-none"
                   />
                 </div>
-                
+
                 <Button
                   type="submit"
                   disabled={isSubmitting}

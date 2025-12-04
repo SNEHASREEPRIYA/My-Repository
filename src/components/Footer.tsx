@@ -12,12 +12,12 @@ const Footer = () => {
     },
     {
       icon: Linkedin,
-      href: "#",
+      href: "https://www.linkedin.com/in/sneha-sree-priya-marre-5a3300257/",
       label: "LinkedIn"
     },
     {
       icon: Github,
-      href: "#",
+      href: "https://github.com/SNEHASREEPRIYA",
       label: "GitHub"
     },
     // {
@@ -112,10 +112,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-1 text-muted-foreground text-sm">
             <span>© {currentYear} Sneha Sree Priya. All Rights Reserved.</span>
-            <span className="hidden md:inline">•</span>
+            {/* <span className="hidden md:inline">•</span>
             <span className="hidden md:inline flex items-center">
               Made with <Heart className="h-3 w-3 mx-1 text-red-500" fill="currentColor" /> and lots of ☕
-            </span>
+            </span> */}
           </div>
 
           {/* Back to Top Button */}
@@ -130,9 +130,9 @@ const Footer = () => {
           </Button>
         </div>
 
-        {/* Background Effects */}
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-neon-blue/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-neon-purple/5 rounded-full blur-3xl"></div>
+        {/* Background Effects (non-interactive and behind content) */}
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-neon-blue/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-neon-purple/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
       </div>
     </footer>
   );

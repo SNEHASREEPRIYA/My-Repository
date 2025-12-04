@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Github, ExternalLink, TrendingUp, ShoppingCart, Eye, Globe, Shield } from 'lucide-react';
+import { Github, ExternalLink, TrendingUp, ShoppingCart, Eye, Globe, Shield, MessageSquare } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -12,8 +12,7 @@ const Projects = () => {
       icon: TrendingUp,
       color: "primary",
       category: "Data Science",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/SNEHASREEPRIYA/StockPricePredictionAndForecasting",
       features: ["Time Series Analysis", "100-day Forecasting", "Interactive Visualizations", "Statistical Validation"]
     },
     {
@@ -23,8 +22,7 @@ const Projects = () => {
       icon: ShoppingCart,
       color: "secondary",
       category: "Machine Learning",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/SNEHASREEPRIYA/FSDRepo",
       features: ["Collaborative Filtering", "Content-Based Filtering", "Real-time Recommendations", "User Behavior Analytics"]
     },
     {
@@ -34,8 +32,7 @@ const Projects = () => {
       icon: Globe,
       color: "primary",
       category: "Web Development",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/SNEHASREEPRIYA/FSDRepo",
       features: ["User Authentication", "Shopping Cart", "Payment Gateway", "Responsive Design"]
     },
     {
@@ -45,8 +42,7 @@ const Projects = () => {
       icon: Eye,
       color: "secondary",
       category: "Computer Vision",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/SNEHASREEPRIYA/Colour-Detection",
       features: ["Real-time Detection", "Pixel-level Accuracy", "Color Space Conversion", "Batch Processing"]
     },
     {
@@ -56,9 +52,52 @@ const Projects = () => {
       icon: Shield,
       color: "primary",
       category: "System Tools",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/SNEHASREEPRIYA/Website-Blocker",
       features: ["Website Blocking", "Time Management", "Custom Block Lists", "Productivity Analytics"]
+    }
+    ,
+    {
+      title: "Social Media App",
+      description: "A full-stack social media application with real-time feeds, user profiles, follow system, likes/comments, and notifications. Built for scalability and responsive user experience.",
+      technologies: ["React.js", "Node.js"],
+      icon: Globe,
+      color: "secondary",
+      category: "Web Development",
+      github: "https://github.com/SNEHASREEPRIYA/SocialMediaApp",
+      features: ["Real-time feed (Socket.io)", "User profiles & authentication", "Follow/unfollow system", "Likes, comments & notifications"]
+    }
+    ,
+    {
+      title: "Chat Bot",
+      description: "Conversational AI chatbot with intent classification, context management, and integrations for messaging platforms. Built to handle contextual dialogs and rich responses.",
+      technologies: ["Python", "FastAPI", "Rasa", "TensorFlow", "Docker", "Redis"],
+      icon: MessageSquare,
+      color: "primary",
+      category: "AI/Chatbot",
+      github: "https://github.com/SNEHASREEPRIYA/chatbot",
+      features: ["Intent classification & NLU", "Contextual conversations", "Webhook & platform integrations", "Containerized deployment"]
+    }
+    ,
+    {
+      title: "Rock Paper Scissors",
+      description: "Interactive Rock-Paper-Scissors game with AI opponent, score tracking, animations, and responsive UI. Built to demonstrate DOM manipulation and game logic.",
+      technologies: ["JavaScript", "HTML", "CSS", "React"],
+      icon: Globe,
+      color: "secondary",
+      category: "Java Script",
+      github: "https://github.com/SNEHASREEPRIYA/Rock-Paper-Scissors",
+      features: ["Single-player vs AI", "Score tracking", "Responsive UI", "Animated interactions"]
+    }
+    ,
+    {
+      title: "CodSoft (Virtual Internship Projects)",
+      description: "Completed a virtual internship at CodSoft where I built three small but practical projects: Calculator, To-Do List, and Password Generator. Each project focused on clean UI, testing, and documentation.",
+      technologies: ["HTML", "CSS", "JavaScript", "React"],
+      icon: Shield,
+      color: "primary",
+      category: "Virtual Internship",
+      github: "https://github.com/SNEHASREEPRIYA/CODSOFT",
+      features: ["Calculator, To-Do List, Password Generator", "Unit-tested components", "Clean UI & documentation"]
     }
   ];
 
@@ -141,7 +180,7 @@ const Projects = () => {
                         Code
                       </a>
                     </Button>
-                    <Button
+                    {/* <Button
                       size="sm"
                       asChild
                       className={`flex-1 bg-${project.color} hover:bg-${project.color}/90 smooth-transition`}
@@ -150,7 +189,7 @@ const Projects = () => {
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Demo
                       </a>
-                    </Button>
+                    </Button> */}
                   </div>
                 </CardContent>
               </Card>

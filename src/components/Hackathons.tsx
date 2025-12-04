@@ -1,6 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Users, Trophy, Lightbulb } from 'lucide-react';
+import { Calendar, Users, Trophy, Lightbulb, Github, ExternalLink } from 'lucide-react';
 
 const Hackathons = () => {
   const hackathons = [
@@ -14,20 +15,9 @@ const Hackathons = () => {
       skills: ["Team Collaboration", "Rapid Prototyping", "Problem Solving", "Time Management"],
       achievements: ["Successfully completed project within 24 hours", "Enhanced collaborative coding skills", "Gained experience in hackathon environment"],
       icon: Trophy,
+      code: 'https://github.com/SNEHASREEPRIYA/Disease-Prediction',
       color: "primary"
     },
-    {
-      event: "Tech Innovation Challenge",
-      organizer: "Regional Technology Forum",
-      duration: "48 Hours",
-      year: "2024",
-      teamRole: "Lead Developer",
-      description: "Led development efforts in a technology-focused hackathon, creating innovative solutions for real-world problems. Demonstrated leadership skills while managing project timeline and team coordination.",
-      skills: ["Leadership", "Full-stack Development", "Project Management", "Innovation"],
-      achievements: ["Led successful project completion", "Mentored junior team members", "Implemented scalable architecture"],
-      icon: Lightbulb,
-      color: "secondary"
-    }
   ];
 
   const hackathonStats = [
@@ -141,6 +131,15 @@ const Hackathons = () => {
                         <Calendar className="h-4 w-4" />
                         <span className="text-sm">Duration: {hackathon.duration}</span>
                       </div>
+                      <Button
+                        size="sm"
+                        asChild
+                        className={`flex-1 bg-${hackathon.color} hover:bg-${hackathon.color}/90 smooth-transition`}>
+                        <a href={hackathon.code} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          Code
+                        </a>
+                      </Button>
                     </div>
                   </div>
                 </CardContent>
@@ -155,8 +154,8 @@ const Hackathons = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">Looking Forward</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Always eager to participate in new hackathons and competitive programming events. 
-                These experiences have been instrumental in enhancing my problem-solving abilities, 
+                Always eager to participate in new hackathons and competitive programming events.
+                These experiences have been instrumental in enhancing my problem-solving abilities,
                 fostering creativity, and building valuable connections in the tech community.
               </p>
             </CardContent>
