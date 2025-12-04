@@ -20,6 +20,7 @@ type CarouselProps = {
 }
 
 type CarouselContextProps = {
+
   carouselRef: ReturnType<typeof useEmblaCarousel>[0]
   api: ReturnType<typeof useEmblaCarousel>[1]
   scrollPrev: () => void
@@ -30,7 +31,8 @@ type CarouselContextProps = {
 
 const CarouselContext = React.createContext<CarouselContextProps | null>(null)
 
-function useCarousel() {
+function useCarousel() 
+{
   const context = React.useContext(CarouselContext)
 
   if (!context) {

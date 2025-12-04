@@ -78,6 +78,7 @@ const MenubarSubContent = React.forwardRef<
     {...props}
   />
 ))
+
 MenubarSubContent.displayName = MenubarPrimitive.SubContent.displayName
 
 const MenubarContent = React.forwardRef<
@@ -121,6 +122,7 @@ const MenubarItem = React.forwardRef<
     {...props}
   />
 ))
+
 MenubarItem.displayName = MenubarPrimitive.Item.displayName
 
 const MenubarCheckboxItem = React.forwardRef<
@@ -231,4 +233,4 @@ export {
   MenubarGroup,
   MenubarSub,
   MenubarShortcut,
-}
+};
